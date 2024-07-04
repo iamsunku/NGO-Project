@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathya Educare Competency Trust</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToStQayMcq2SQXcLUPo8NWeOfKiq6u2GEhqQ&s" alt="Sathya Educare Competency Trust Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="educational.html">Education Transformation</a></li>
+                <li><a href="#">Eldercare Enhancement</a></li>
+                <li><a href="Lending Hands.html">Lending Hand</a></li>
+                <li><a href="PDf.htm">Financials</a></li>
+                <li><a href="Events.html">More</a></li>
+            </ul>
+            <div class="language-select">
+                <select>
+                    <option value="en">EN</option>
+                    <option value="Kannada">Kn</option>
+                    <!-- Add more language options here -->
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <section class="program-areas">
+        <h2>Our Program Areas</h2>
+        <div class="program-cards">
+            <div class="program-card">
+                <img src="C:\Users\sunku\Desktop\project\images\f1.webp" alt="Foundational Stage">
+                <h3>Foundational Stage</h3>
+                <a href="#">Know More ></a>
+            </div>
+            <div class="program-card">
+                <img src="C:\Users\sunku\Desktop\project\images\f2.webp" alt="Primary and Secondary Stage">
+                <h3>Primary and Secondary Stage</h3>
+                <a href="#">Know More ></a>
+            </div>
+            <div class="program-card">
+                <img src="C:\Users\sunku\Desktop\project\images\f3.webp" alt="Resource Development">
+                <h3>Resource Development</h3>
+                <a href="#">Know More ></a>
+            </div>
+            <div class="program-card">
+                <img src="C:\Users\sunku\Desktop\project\images\f4.webp" alt="Pre-service/Early Career Teachers">
+                <h3>Pre-service/Early Career Teachers</h3>
+                <a href="#">Know More ></a>
+            </div>
+            <div class="program-card">
+                <img src="C:\Users\sunku\Desktop\project\images\f5.webp" alt="Scalability and Sustainability">
+                <h3>Scalability and Sustainability</h3>
+                <a href="#">Know More ></a>
+            </div>
+            <div class="program-card">
+                <img src="C:\Users\sunku\Desktop\project\images\f6.webp" alt="Online Courses">
+                <h3>Online Courses</h3>
+                <a href="#">Know More ></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("C:\Users\sunku\Downloads\Constructivism+.jpg"); /* Add your background image here */
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #0d0d0d;
+}
+
+header {
+    background-color: rgba(99, 55, 90, 0.9);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgb(229, 226, 226);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 450px;
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgb(238, 231, 231);
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.language-select {
+    margin-top: 10px;
+}
+
+.program-areas {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(148, 62, 62);
+}
+
+.program-areas h2 {
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #7ce5ef;
+    position: relative;
+}
+
+.program-areas h2::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #7cea97;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.program-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.program-card {
+    background-color: #f6b289;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.program-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.program-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.program-card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.program-card a:hover {
+    background-color: #0056b3;
+}
+
+.program-card:hover {
+    transform: translateY(-10px); /* Lift up on hover */
+}
+
+</style>

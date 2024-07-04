@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Sathya Educare Competency Trust</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #a6718d;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #f1f1f1;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #495766;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .event-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .event-item {
+            width: 300px;
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .event-item:hover {
+            transform: scale(1.05);
+        }
+        .event-item img, .event-item video {
+            width: 100%;
+            border-bottom: 5px solid #007BFF;
+        }
+        .event-item video {
+            height: auto;
+        }
+        footer {
+    background-color: #0065b393;
+    color: white;
+    padding: 20px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+footer .footer-content div {
+    flex: 1;
+    margin: 10px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .contact-info p {
+    margin: 0;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.location {
+    margin: 20px 0;
+}
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .fadeInUp {
+            animation: fadeInUp 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sathya Educare Competency Trust</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="educational.html">Education Transformation</a>
+        <a href="Elder.html">Eldercare Enhancement</a>
+        <a href="Lending Hands.html">Lending Hand</a>
+        <a href="pdf.html">Financials</a>
+        <a href="#" id="eventsBtn">Events</a>
+        <a href="contactus.html">More</a>
+    </nav>
+    <div class="container" id="mainContent">
+        <h2>Welcome to Sathya Educare Competency Trust</h2>
+        <p>Join us and be a part of our mission.</p>
+    </div>
+    <div class="container" id="eventsSection" style="display: none;">
+        <h2>Events</h2>
+        <div class="event-section">
+            <div class="event-item">
+                <img src="C:\Users\sunku\Desktop\project\images\e1.webp" alt="Event Image 1">
+                <p>Event Description 1</p>
+            </div>
+            <div class="event-item">
+                <video controls>
+                    <source src="C:\Users\sunku\Desktop\project\images\VID-20240620-WA0001.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Event Video 1</p>
+            </div>
+            <div class="event-item">
+                <img src="C:\Users\sunku\Desktop\project\images\IMG-20240620-WA0023.jpg" alt="Event Image 2">
+                <p>Event Description 2</p>
+            </div>
+            <div class="event-item">
+                <video controls>
+                    <source src="C:\Users\sunku\Desktop\project\images\VID-20240620-WA0003.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Event Video 2</p>
+            </div>
+            <div class="event-item">
+              <img src="C:\Users\sunku\Desktop\project\images\IMAGE-5.jpg" alt="Event Image 3">
+              <p>Event Description 3</p>
+          </div>
+          <div class="event-item">
+            <video controls>
+                <source src="C:\Users\sunku\Desktop\project\images\VID-20240620-WA0002.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Event Video 3</p>
+        </div>
+        <div class="event-item">
+          <img src="C:\Users\sunku\Desktop\project\images\IMG-20240620-WA0019.jpg" alt="Event Image 2">
+          <p>Event Description 4</p>
+        </div>
+        <div class="event-item">
+          <video controls>
+              <source src="C:\Users\sunku\Desktop\project\images\videoplayback.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <p>Event Video 4</p>
+        </div>
+        <div class="event-item">
+        <img src="C:\Users\sunku\Desktop\project\images\Constructivism+.jpg" alt="Event Image 2">
+        <p>Event Description 6</p>
+        </div>
+      <div class="event-item">
+        <img src="C:\Users\sunku\Desktop\project\images\IMG-20240620-WA0019.jpg" alt="Event Image 2">
+        <p>Event Description 6</p>
+      </div>
+      <div class="event-item">
+        <img src="C:\Users\sunku\Desktop\project\images\IMAGE-4.jpg" alt="Event Image 2">
+        <p>Event Description 7</p>
+      </div>
+      <div class="event-item">
+        <img src="C:\Users\sunku\Desktop\project\images\IMG-20240620-WA0026.jpg" alt="Event Image 2">
+        <p>Event Description 8</p>
+      </div>
+      <div class="event-item">
+        <img src="C:\Users\sunku\Desktop\project\images\top-4.jpg" alt="Event Image 2">
+        <p>Event Description 9</p>
+      </div>
+      <div class="event-item">
+        <img src="C:\Users\sunku\Desktop\project\images\background.jpg" alt="Event Image 2">
+        <p>Event Description 10</p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <div class="quick-links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Lending Hands.html">Lending Hand</a></li>
+                <li><a href="contactus.html">Contactus</a></li>
+                <li><a href="pdf.html">Finance</a></li>
+            </ul>
+        </div>
+        <div class="focus-areas">
+            <h2>Focus Areas</h2>
+            <ul>
+                <li><a href="educational.html">Education Transformation</a></li>
+                <li><a href="#">Eldercare Enhancement</a></li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <h3>Contact Info</h3>
+            <p>Sathya Educare Competency Trust,<br>
+            Data Palace, No. 34/1,<br>
+            JP Nagar, 3rd Phase<br>
+            Bengaluru - 560078</p>
+            <p>Phone: +91 1234567890<br>
+                Email: contact@sathyaeducare.com</p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/company/sathya-educare-competency-trust/"><img src="C:\Users\sunku\Desktop\project\images\Linkedin.jpg" alt="LinkedIn"></a>
+            <a href="https://www.facebook.com/people/Sathya-Educare-Admin/100091608320898/?mibextid=ZbWKwL"><img src="C:\Users\sunku\Desktop\project\images\Facebook (2).png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/channel/UCdVZBfiKIcDOfdwwLD7T5Xw"><img src="C:\Users\sunku\Desktop\project\images\youtube (2).png" alt="YouTube"></a>
+            <a href="https://www.instagram.com/sathyaeducare/"><img src="C:\Users\sunku\Desktop\project\images\fb7b96dab7866ca2b26bab855df45702.jpg" alt="62-instagram-512"></a>
+        </div>
+          
+    </div>    
+</footer>
+<footer>
+<p>&copy; 2024 Sathya Educare Competency Trust</p>
+</footer>
+<script src="scripts.js"></script>  
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+<script src="https://cdnjs.cloudflare.com/ajaax/libs/firebase/7.14.1-0/firebase.js"></script>
+    </footer>
+    <script>
+        document.getElementById('eventsBtn').addEventListener('click', function() {
+            const mainContent = document.getElementById('mainContent');
+            const eventsSection = document.getElementById('eventsSection');
+            
+            // Hide the main content
+            mainContent.style.display = 'none';
+            
+            // Show the events section with animation
+            eventsSection.style.display = 'block';
+            
+            // Add animation class to each event item
+            const eventItems = eventsSection.querySelectorAll('.event-item');
+            eventItems.forEach((item, index) => {
+                setTimeout(() => {
+                    item.classList.add('fadeInUp');
+                }, index * 200); // Stagger animation by 200ms for each item
+            });
+        });
+    </script>
+</body>
+</html>
